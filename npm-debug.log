@@ -1,0 +1,130 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'install', '-g' ]
+2 info using npm@3.8.7
+3 info using node@v4.4.2
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readGlobalPackageData
+7 silly fetchPackageMetaData .
+8 silly fetchDirectoryPackageData .
+9 silly install normalizeTree
+10 silly loadCurrentTree Finishing
+11 silly loadIdealTree Starting
+12 silly install loadIdealTree
+13 silly cloneCurrentTree Starting
+14 silly install cloneCurrentTreeToIdealTree
+15 silly cloneCurrentTree Finishing
+16 silly loadShrinkwrap Starting
+17 silly install loadShrinkwrap
+18 silly loadShrinkwrap Finishing
+19 silly loadAllDepsIntoIdealTree Starting
+20 silly install loadAllDepsIntoIdealTree
+21 silly resolveWithNewModule moles-packer-bin@0.0.1 checking installable status
+22 silly cache add args [ '.', null ]
+23 verbose cache add spec .
+24 silly cache add parsed spec Result {
+24 silly cache add   raw: '.',
+24 silly cache add   scope: null,
+24 silly cache add   name: null,
+24 silly cache add   rawSpec: '.',
+24 silly cache add   spec: '/Users/jiangjing/JPO/WorkingSpace/moles-packer/npm-bin',
+24 silly cache add   type: 'directory' }
+25 verbose addLocalDirectory /Users/jiangjing/.npm/moles-packer-bin/0.0.1/package.tgz not in flight; packing
+26 verbose correctMkdir /Users/jiangjing/.npm correctMkdir not in flight; initializing
+27 info lifecycle moles-packer-bin@0.0.1~prepublish: moles-packer-bin@0.0.1
+28 silly lifecycle moles-packer-bin@0.0.1~prepublish: no script for prepublish, continuing
+29 verbose tar pack [ '/Users/jiangjing/.npm/moles-packer-bin/0.0.1/package.tgz',
+29 verbose tar pack   '/Users/jiangjing/JPO/WorkingSpace/moles-packer/npm-bin' ]
+30 verbose tarball /Users/jiangjing/.npm/moles-packer-bin/0.0.1/package.tgz
+31 verbose folder /Users/jiangjing/JPO/WorkingSpace/moles-packer/npm-bin
+32 verbose addLocalTarball adding from inside cache /Users/jiangjing/.npm/moles-packer-bin/0.0.1/package.tgz
+33 verbose correctMkdir /Users/jiangjing/.npm correctMkdir not in flight; initializing
+34 silly cache afterAdd moles-packer-bin@0.0.1
+35 verbose afterAdd /Users/jiangjing/.npm/moles-packer-bin/0.0.1/package/package.json not in flight; writing
+36 verbose correctMkdir /Users/jiangjing/.npm correctMkdir not in flight; initializing
+37 verbose afterAdd /Users/jiangjing/.npm/moles-packer-bin/0.0.1/package/package.json written
+38 silly loadAllDepsIntoIdealTree Finishing
+39 silly idealTree:prePrune lib
+39 silly idealTree:prePrune └── moles-packer-bin@0.0.1
+40 silly loadIdealTree Finishing
+41 silly currentTree lib
+42 silly idealTree lib
+42 silly idealTree └── moles-packer-bin@0.0.1
+43 silly generateActionsToTake Starting
+44 silly install generateActionsToTake
+45 silly generateActionsToTake Finishing
+46 silly diffTrees action count 1
+47 silly diffTrees add moles-packer-bin@0.0.1
+48 silly decomposeActions action count 8
+49 silly decomposeActions fetch moles-packer-bin@0.0.1
+50 silly decomposeActions extract moles-packer-bin@0.0.1
+51 silly decomposeActions test moles-packer-bin@0.0.1
+52 silly decomposeActions preinstall moles-packer-bin@0.0.1
+53 silly decomposeActions build moles-packer-bin@0.0.1
+54 silly decomposeActions install moles-packer-bin@0.0.1
+55 silly decomposeActions postinstall moles-packer-bin@0.0.1
+56 silly decomposeActions finalize moles-packer-bin@0.0.1
+57 silly executeActions Starting
+58 silly install executeActions
+59 silly doSerial global-install 0
+60 silly doParallel fetch 1
+61 verbose correctMkdir /Users/jiangjing/.npm/_locks correctMkdir not in flight; initializing
+62 verbose lock using /Users/jiangjing/.npm/_locks/staging-3a08f0df5026584d.lock for /usr/local/lib/node_modules/.staging
+63 silly doParallel extract 1
+64 silly extract moles-packer-bin@0.0.1
+65 verbose unbuild lib/node_modules/.staging/moles-packer-bin-33db9259
+66 silly gentlyRm /usr/local/lib/node_modules/.staging/moles-packer-bin-33db9259 is being purged from base /usr/local
+67 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/moles-packer-bin-33db9259
+68 verbose tar unpack /Users/jiangjing/.npm/moles-packer-bin/0.0.1/package.tgz
+69 verbose tar unpacking to /usr/local/lib/node_modules/.staging/moles-packer-bin-33db9259
+70 silly gentlyRm /usr/local/lib/node_modules/.staging/moles-packer-bin-33db9259 is being purged
+71 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/moles-packer-bin-33db9259
+72 silly gunzTarPerm modes [ '755', '644' ]
+73 silly gunzTarPerm extractEntry package.json
+74 silly gunzTarPerm extractEntry .npmignore
+75 silly gunzTarPerm extractEntry README.md
+76 silly gunzTarPerm extractEntry LICENSE
+77 silly gunzTarPerm extractEntry index.js
+78 silly gunzTarPerm extractEntry install.js
+79 silly gentlyRm /usr/local/lib/node_modules/.staging/moles-packer-bin-33db9259/node_modules is being purged
+80 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/moles-packer-bin-33db9259/node_modules
+81 silly doParallel preinstall 1
+82 silly preinstall moles-packer-bin@0.0.1 /usr/local/lib/node_modules/.staging/moles-packer-bin-33db9259
+83 info lifecycle moles-packer-bin@0.0.1~preinstall: moles-packer-bin@0.0.1
+84 warn lifecycle moles-packer-bin@0.0.1~preinstall: cannot run in wd %s %s (wd=%s) moles-packer-bin@0.0.1 node install.js /usr/local/lib/node_modules/.staging/moles-packer-bin-33db9259
+85 silly doReverseSerial remove 0
+86 silly doSerial move 0
+87 silly doSerial finalize 1
+88 silly finalize /usr/local/lib/node_modules/moles-packer-bin
+89 silly doSerial build 1
+90 silly build moles-packer-bin@0.0.1
+91 info linkStuff moles-packer-bin@0.0.1
+92 silly linkStuff moles-packer-bin@0.0.1 has /usr/local/lib/node_modules as its parent node_modules
+93 silly linkStuff moles-packer-bin@0.0.1 is part of a global install
+94 silly linkStuff moles-packer-bin@0.0.1 is installed into a global node_modules
+95 silly linkStuff moles-packer-bin@0.0.1 is installed into the top-level global node_modules
+96 verbose linkBins moles-packer-bin@0.0.1
+97 verbose link bins [ { 'moles-pack': './bin/output' }, '/usr/local/bin', true ]
+98 verbose linkMans moles-packer-bin@0.0.1
+99 verbose unlock done using /Users/jiangjing/.npm/_locks/staging-3a08f0df5026584d.lock for /usr/local/lib/node_modules/.staging
+100 silly rollbackFailedOptional Starting
+101 silly rollbackFailedOptional Finishing
+102 silly runTopLevelLifecycles Starting
+103 silly runTopLevelLifecycles Finishing
+104 silly install printInstalled
+105 verbose stack Error: ENOENT: no such file or directory, chmod '/usr/local/lib/node_modules/moles-packer-bin/bin/output'
+105 verbose stack     at Error (native)
+106 verbose cwd /Users/jiangjing/JPO/WorkingSpace/moles-packer/npm-bin
+107 error Darwin 15.4.0
+108 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "-g"
+109 error node v4.4.2
+110 error npm  v3.8.7
+111 error path /usr/local/lib/node_modules/moles-packer-bin/bin/output
+112 error code ENOENT
+113 error errno -2
+114 error syscall chmod
+115 error enoent ENOENT: no such file or directory, chmod '/usr/local/lib/node_modules/moles-packer-bin/bin/output'
+116 error enoent ENOENT: no such file or directory, chmod '/usr/local/lib/node_modules/moles-packer-bin/bin/output'
+116 error enoent This is most likely not a problem with npm itself
+116 error enoent and is related to npm not being able to find a file.
+117 verbose exit [ -2, true ]

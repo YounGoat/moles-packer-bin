@@ -32,7 +32,7 @@ var _readkey = function() {
     return buf.toString('utf8');
 };
 
-var SHADOWN_NAME = 'yuan-foo';
+var SHADOWN_NAME = 'moles-packer';
 
 var mp;
 try {

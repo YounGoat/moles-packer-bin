@@ -1,11 +1,11 @@
 {
     "name": "moles-packer-bin",
-    "version": "0.1.3",
+    "version": "0.0.1",
     "description": "Builder for React Native projects, binary edition of moles-packer.",
     "main": "index.js",
     "homepage": "https://github.com/ctripcorp/moles-packer/",
     "scripts": {
-        "install": "node install.js"
+        "preinstall": "node install.js"
     },
     "bin": {
         "moles-pack": "./bin/output"
