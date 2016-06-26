@@ -2,17 +2,6 @@
     "name": "moles-packer-bin",
     "version": "0.0.1",
     "description": "Builder for React Native projects, binary edition of moles-packer.",
-    "main": "index.js",
-    "homepage": "https://github.com/ctripcorp/moles-packer/",
-    "scripts": {
-        "preinstall": "node install.js"
-    },
-    "bin": {
-        "moles-pack": "./bin/output"
-    },
-    "bugs": {
-        "url": "https://github.com/ctripcorp/moles-packer/issues"
-    },
     "keywords": [
         "react",
         "react-native",
@@ -21,6 +10,28 @@
         "ctrip",
         "bundle"
     ],
+    "preferGlobal": true,
+    "main": "index.js",
+    "files": [
+        "bin",
+        "install.js"
+    ],
+    "bin": {
+        "moles-pack": "./bin/output"
+    },
+    "scripts": {
+        "install": "node install.js"
+    },
+
+    "homepage": "https://github.com/ctripcorp/moles-packer/",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ctripcorp/moles-packer.git"
+    },
+    "bugs": {
+        "url": "https://github.com/ctripcorp/moles-packer/issues"
+    },
+
     "dependencies": {},
     "author": "Triver YounGoat <youngoat@163.com> (http://youngoat.github.io/)",
     "license": "MIT"

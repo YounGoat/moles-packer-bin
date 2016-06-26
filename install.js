@@ -12,17 +12,24 @@ var BIN_NAMES = {
 
 var BIN_TARGET = 'bin/output';
 
-var ostype = os.type();
+var ostype = os.type(), found = false;
 for (var type in BIN_NAMES) {
 	var source = path.join(__dirname, BIN_NAMES[type]);
 	var target = path.join(__dirname, BIN_TARGET) + path.extname(source);
+
 	if (type == ostype) {
 		fs.unlinkSync(target);
 		fs.renameSync(source, target);
+        found = true;
 	}
 	else {
 		fs.unlinkSync(source);
 	}
 }
-
-console.log('Binary command file ready.');
+if (!found) {
+    console.log('Binary command file ready.');
+}
+else {
+    console.error('OS type "' + ostype + '" is not supported.');
+    process.exit(1);
+}
