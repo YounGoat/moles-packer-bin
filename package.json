@@ -1,6 +1,6 @@
 {
     "name": "moles-packer-bin",
-    "version": "0.0.1",
+    "version": "0.1.4",
     "description": "Builder for React Native projects, binary edition of moles-packer.",
     "keywords": [
         "react",

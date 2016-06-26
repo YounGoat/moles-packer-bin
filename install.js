@@ -26,7 +26,7 @@ for (var type in BIN_NAMES) {
 		fs.unlinkSync(source);
 	}
 }
-if (!found) {
+if (found) {
     console.log('Binary command file ready.');
 }
 else {

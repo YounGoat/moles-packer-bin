@@ -10,7 +10,6 @@ npm install -g moles-packer-bin
 
 # test command created
 moles-pack -v
-moles-pack-common -v
 ```
 
 #	User Manual
